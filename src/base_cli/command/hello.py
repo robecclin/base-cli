@@ -6,7 +6,7 @@ from base_cli.app import app
 
 
 @app.command(help="Print a hello world greeting")
-def helloworld(
+def hello(
     name: Annotated[str, Option(help="Name to greet")] = "world",
 ) -> None:
     echo(f"Hello, {name}!")
