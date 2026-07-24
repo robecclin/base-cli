@@ -48,25 +48,5 @@ strict = true
 [tool.pyright]
 typeCheckingMode = "strict"
 
-[tool.ruff.lint]
-ignore = [
-    "S101", # assert
-]
-select = [
-    "B",   # bugbear
-    "B9",
-    "C4",  # flake8-comprehensions
-    "E",   # pycodestyle (error)
-    "F",   # pyflakes
-    "I",   # isort
-    "PGH", # pygrep-hooks
-    "PIE", # flake8-pie
-    "PYI", # flake8-pyi
-    "RUF",
-    "S",   # flake8-bandit
-    "SIM", # flake8-simplify
-    "UP",  # pyupgrade
-]
-
 [tool.vulture]
 paths = ["src", "tests"]
