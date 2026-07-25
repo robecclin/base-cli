@@ -22,7 +22,7 @@ Goodbye, Bob!
 
 ```sh
 make install # uv sync --locked
-make check   # ruff, vulture, ty, pyright, mypy, pytest+coverage, yamllint
+make check   # ruff, vulture, ty, mypy, pytest+coverage, yamllint
 make upgrade # uv sync --upgrade
 make clean   # remove caches
 ```
