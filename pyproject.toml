@@ -47,5 +47,8 @@ source = ["src"]
 files = ["src", "tests"]
 strict = true
 
+[tool.uv]
+exclude-newer = "3 days"
+
 [tool.vulture]
 paths = ["src", "tests"]
