@@ -18,7 +18,7 @@ base-cli = "base_cli.main:app"
 
 [build-system]
 build-backend = "uv_build"
-requires = ["uv_build>=0.12.6,<0.13"]
+requires = ["uv_build>=0.12.7,<0.13"]
 
 [dependency-groups]
 dev = [
@@ -31,7 +31,7 @@ dev = [
     "yamllint>=1.38.0",
 ]
 ci = [
-    "uv>=0.12.6",
+    "uv>=0.12.7",
 ]
 
 [tool.coverage.report]
